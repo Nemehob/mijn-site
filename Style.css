@@ -1,0 +1,97 @@
+html {
+  /* Black and Green Theme CSS */
+
+  /* Base styles */
+  body {
+      background-color: #000000; /* Black background */
+      color: #00FF00; /* Green text */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+      color: #00FF00; /* Green headings */
+  }
+
+  /* Paragraphs */
+  p {
+      color: #CCCCCC; /* Light gray text for paragraphs */
+      line-height: 1.6;
+  }
+
+  /* Links */
+  a {
+      color: #00FF00; /* Green links */
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
+  /* Buttons */
+  button {
+      background-color: #00FF00; /* Green background */
+      color: #000000; /* Black text */
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+
+  button:hover {
+      background-color: #00CC00; /* Darker green on hover */
+  }
+
+  /* Containers */
+  .container {
+      padding: 20px;
+      margin: 0 auto;
+      max-width: 1200px;
+  }
+
+  /* Header */
+  header {
+      background-color: #111111; /* Dark gray background */
+      padding: 20px;
+      text-align: center;
+  }
+
+  /* Footer */
+  footer {
+      background-color: #111111; /* Dark gray background */
+      padding: 10px;
+      text-align: center;
+      color: #666666; /* Medium gray text */
+  }
+
+  /* Additional styling */
+  .navbar {
+      display: flex;
+      justify-content: space-around;
+      background-color: #222222; /* Dark gray */
+      padding: 10px;
+  }
+
+  .navbar a {
+      color: #00FF00;
+      padding: 10px;
+  }
+
+  .navbar a:hover {
+      background-color: #333333; /* Slightly lighter gray */
+  }
+
+  .card {
+      background-color: #111111; /* Dark gray */
+      border: 1px solid #00FF00;
+      padding: 20px;
+      margin: 20px 0;
+  }
+
+  .card h3 {
+      margin-top: 0;
+  }
+}
